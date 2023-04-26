@@ -7,7 +7,7 @@
     --accent2-color: #FC5130;
 
     --heading-font: 'Roboto', sans-serif;
-    --paragrph-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
 
     --nav-background-color: var(--accent1-color);
     --nav-link-color: var(--primary-color);
@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: var(--paragrph-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
