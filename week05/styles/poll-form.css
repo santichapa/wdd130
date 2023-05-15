@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(189, 131, 24);
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    width: 650px;
+    margin: 0 auto;
+    
+}
+h1 {
+    margin: 1rem;;
+    color: rgb(189, 131, 24);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: rgb(188, 89, 22);
+    font-weight: 800;
+    padding: 0.5em;
+}
+
+form {
+    width: 650px;
+    display: grid;
+    margin: 0 auto;
+    padding: .5em;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+    margin: 1rem;
+    grid-gap: .5em;
+    border: 2px solid rgb(208, 173, 44);
+    border-radius: 0.5em;
+    background-color: rgb(247, 225, 192);
+}
+label {
+    text-align: right;
+    align-self: center;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: larger;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    padding: .5em;
+    margin: auto;
+    border: 2px solid rgb(208, 173, 44);
+    border-radius: 0.5em;
+    background-color: rgb(247, 225, 192);
+    box-shadow: 0 2px 2px;
+}
+button:hover {
+    background-color: rgb(208, 173, 44);
+    border-color: rgb(247, 225, 192);
+    box-shadow: none;
+    color: white;
+}
+
+footer {
+    margin: 2rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1em;
+    border-top: 2px solid;
+}
