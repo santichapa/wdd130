@@ -25,7 +25,7 @@
         <div class="hero">
             <h1>Contact Us</h1>
             <img src="images/contact-hero-img.jpg" alt="Contact Us" id="contactheroimg">
-            <section class="happyimg">
+            <div class="happyimg">
                 <figure>
                     <img src="images/employee-image1.jpg" alt="Happy Employee">
                     <figcaption>Founder</figcaption>
@@ -38,7 +38,7 @@
                     <img src="images/employee-image3.jpg" alt="Happy Employee 3">
                     <figcaption>Other Staff</figcaption>
                 </figure>
-            </section>
+            </div>
         </div>
             <div class="contactinfo">
                 <h2>Contact Information</h2>
@@ -54,18 +54,20 @@
             <h2 class="formheader">Send Us a Message</h2>
             <form>
                 <div>
-                    <label for="fullname">Full Name</label>
+                    <label for="fullname">Full Name:</label>
                     <input type="text" name="fullname" id="fullname">
-                    <label for="email">Email</label>
+                    <label for="email">Email:</label>
                     <input type="email" name="email" id="email">
                 </div>
-                <select name="messagetype" id="messagetype">
-                    <option value="general">General Inquiry</option>
-                    <option value="reservation">Reservation Question</option>
-                    <option value="suggestion"> Website Suggestion</option>
-
-                </select>
-                <label for="message">Message</label>
+                <div>
+                    <input type="radio" name="messagetype" id="general" value="Generalq">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" name="messagetype" id="reservation" value="Reservationq">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" name="messagetype" id="suggestion" value="Suggestionq">
+                    <label for="suggestion">Website Suggestion</label><br>
+                </div>
+                <label for="message">Message:</label>
                 <textarea name="message" id="message" cols="60" rows="8" placeholder="Write here..."></textarea>
                 <div class="suscribecheckbox">
                     <label for="suscribe">Please subscribe me to the monthly newsletter</label>

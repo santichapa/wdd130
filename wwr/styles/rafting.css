@@ -281,19 +281,14 @@ form {
     
 }
 form label {
-    padding: 1em;
-    margin-right: .4em;
-    align-self: center;
+    margin-right: 1em;
 }
-form input {
+form input[type="text"], input[type="email"] {
     margin-right: 3em;
     width: 200px;
 }
-select {
-    padding: .5em;
-    font-size: 1.1rem;
-    margin: 1em auto 1em 0;
-    align-self: left;
+input[type="radio"] {
+    grid-row: 2/3;
 }
 
 input[type="checkbox"] {
