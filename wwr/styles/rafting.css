@@ -114,6 +114,7 @@ nav {
 }
 nav a {
     display: block;
+    align-self: center;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem 2rem;
@@ -208,3 +209,111 @@ html {
     margin: auto;
     background-color: rgb(92, 139, 142);
 }
+
+.hero h1 {
+    margin-top: 6em;
+}
+.happyimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.happyimg img {
+    width: 300px;
+
+}
+.happyimg figcaption {
+    text-align: center;
+    padding: .2em;
+    background-color: #3E5622;
+    margin: 0;  
+    color: #EAE2B7;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.contactinfo {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.contactinfo h2 {
+    grid-column: 1/4;
+    margin: 0;    
+}
+.contactinfo h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 1em;
+    z-index: 1;
+    background-color: var(--primary-color);
+    color: #7E6C6C;
+}
+.contactinfo article {
+    grid-column: 1/2;
+    padding: 1em;
+    text-align: left;
+    border-right: 2px #7E6C6C;
+    background-color: #EAE2B7;
+}
+.contactinfo p {
+    padding: .5em;
+    margin: 2em;
+    font-size: 1.1rem;
+}
+.contactinfo iframe {
+    grid-column: 2/3;
+    padding: 0;
+    margin: 0;
+    width: 495px;
+}
+
+.formheader {
+    margin-bottom: 0;
+}
+form {
+    background-color: whitesmoke;
+    display: grid;
+    gap: 1em;
+    padding: 3em;
+    font-size: 1.1rem;
+    margin-bottom: 3em;
+    
+}
+form label {
+    padding: 1em;
+    margin-right: .4em;
+    align-self: center;
+}
+form input {
+    margin-right: 3em;
+    width: 200px;
+}
+select {
+    padding: .5em;
+    font-size: 1.1rem;
+    margin: 1em auto 1em 0;
+    align-self: left;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 2em auto;
+    align-content: center;
+}
+
+button {
+    margin: auto;
+    padding: .5em 1em;
+    font-size: 1.2em;
+    border-radius: 5em;
+    box-shadow: 0 2px 3px gray;
+}
+button:hover {
+    background-color: #3E5622;
+    color: #EAE2B7;
+    font-weight: 700;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
