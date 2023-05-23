@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
 * {
-    max-width: 8400px;
+    max-width: 840px;
     /* border: 1px black solid; */
 }
 :root {
@@ -79,6 +79,10 @@ header img {
 }
 .abouth1 {
     grid-row: 1/2;
+}
+.tripsheroh1 {
+    grid-row: 3/4;
+    font-size: 3.5rem;
 }
 .hero article {
     /* position: flex; */
@@ -306,6 +310,7 @@ button {
     padding: .5em 1em;
     font-size: 1.2em;
     border-radius: 5em;
+    border: none;
     box-shadow: 0 2px 3px gray;
 }
 button:hover {
@@ -315,3 +320,58 @@ button:hover {
     text-shadow: 0 0 5px whitesmoke;
 }
 
+.trips {
+    display: grid;
+}
+.trips h2 {
+    width: 100%;
+}
+.trips a {
+    justify-self: center;
+    text-decoration: none;
+    color: #EAE2B7;
+    background-color: #3E5622;
+    padding: .5em;
+    border-radius: 5%;
+    box-shadow: 0 0 5px;
+    font-size: 1.2rem;
+}
+.trips a:hover {
+    color: #20A4F3;
+    background-color: #EAE2B7;
+}
+.trips div {
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    justify-content: space-around;
+    background-color: #3E5622;
+    margin: 2em 0 2em;
+    border-radius: 1em;
+}
+.trips h3 {
+    border-bottom: 2px solid;
+}
+.trips img {
+    width: 240px;
+}
+.trips p {
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+table {
+    margin: 1em auto 2em;
+    padding: 1em;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    align-self: center;
+}
+th {
+    border-bottom: 3px solid ;
+    padding: 0 2em;
+}
+td {
+    padding: .5em 1em;
+    border: 1px;
+    text-align: center;
+}
