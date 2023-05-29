@@ -80,6 +80,10 @@ header img {
 .abouth1 {
     grid-row: 1/2;
 }
+.indexh1 {
+    grid-row: 2/4;
+    font-size: 3.4rem;
+}
 .tripsheroh1 {
     grid-row: 3/4;
     font-size: 3.5rem;
@@ -237,7 +241,6 @@ html {
     color: #EAE2B7;
     font-size: larger;
     font-weight: 600;
-
 }
 
 .contactinfo {
@@ -374,4 +377,83 @@ td {
     padding: .5em 1em;
     border: 1px;
     text-align: center;
+}
+.hero a {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    margin: auto 2em 2em auto ;
+    text-decoration: none;
+    color: #EAE2B7;
+    background-color: #3E5622;
+    padding: .5em;
+    border-radius: 5%;
+    box-shadow: 0 0 5px;
+    font-size: 1.5rem;
+}
+.hero a:hover {
+    color: #20A4F3;
+    background-color: #EAE2B7;
+}
+
+.imagery {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 840px;
+    margin: 3em 0 5em
+}
+.imagery figure, .imagery img {
+    height: 170px;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid;
+
+}
+.imagery figcaption {
+    text-align: center;
+    background-color: #3E5622;
+    color: #EAE2B7;
+    font-size: 1.3rem;
+    padding: .5em;
+    border-bottom: 5px solid;
+}
+
+.jointheadventure {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto 2em;
+}
+.jointheadventure img {
+    width: 650px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border: 1px solid ;
+}
+.jointheadventure article {
+    
+    grid-column: 3/7;
+    grid-row: 1/2;
+    background-color: rgb(32, 164, 243, 50%);
+    margin: 2em auto 2em auto;
+    color: #EAE2B7;
+    padding: 0 .7em 1em;
+    box-shadow: -2px 2px 5px rgb(59, 59, 59); 
+    text-shadow: 2px 1px #3E5622;
+}
+
+.jointheadventure a {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    margin: auto 2em auto 2em ;
+    text-decoration: none;
+    color: #EAE2B7;
+    background-color: #3E5622;
+    padding: .3em;
+    border-radius: 5%;
+    box-shadow: 0 0 10px;
+    font-size: large;
+}
+.jointheadventure a:hover {
+    color: #20A4F3;
+    background-color: #EAE2B7;
+    text-shadow: none;
 }
